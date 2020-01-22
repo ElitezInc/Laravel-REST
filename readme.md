@@ -16,6 +16,7 @@ For implementing the task, technology stack is used that contains:
 
 ### Setup guide
 Download all the files from repository and place them into web server root folder. Next, create database inside MySQL environment for website and configure MySQL connection settings inside project .env file. Install composer and run these commands in command line, opened inside project location:
+
 ``` bash
 # Install Dependencies
 composer install
@@ -37,5 +38,5 @@ GET /api/products/recommended/:city
 
 | Request| Response  |
 | ------ | --------- |
-| <pre> Parameters: <br> :city - Vilnius </pre>|<pre lang="json">{<br>  "id": 10,<br>  "username": "alanpartridge",<br>  "email": "alan@alan.com",<br>  "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",<br>  "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",<br>  "created_at": "2015-02-14T20:45:26.433Z",<br>  "updated_at": "2015-02-14T20:45:26.540Z"<br>}</pre>|
-| <pre> Parameters: <br> :city - Kaunas</pre>|<code>{<br>  "code": 400,<br>  "msg": balabala"<br>}</code>|
+| <pre> Parameters: <br> :city - Vilnius </pre>|<pre>{<br>  "id": 10,<br>  "username": "alanpartridge",<br>  "email": "alan@alan.com",<br>  "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",<br>  "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",<br>  "created_at": "2015-02-14T20:45:26.433Z",<br>  "updated_at": "2015-02-14T20:45:26.540Z"<br>}</pre>|
+| <pre> Parameters: <br> :city - Kaunas</pre>|<pre>{<br>  "code": 400,<br>  "msg": balabala"<br>}</pre>|

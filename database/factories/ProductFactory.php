@@ -6,7 +6,7 @@ use App\Model;
 use Faker\Generator as Faker;
 
 $factory->define(App\Product::class, function (Faker $faker) {
-    $Products = Array("shorts","pants","hat","jeans","cargos","coat","jacket","umbrella","sweatshirt","suit","t-shirt","gloves","shoes");
+    $Products = Array("Shorts","Pants","Hat","Jeans","Cargos","Coat","Jacket","Umbrella","Sweatshirt","Suit","T-Shirt","Gloves","Shoes");
     
     return [
         'sku' => substr($faker->uuid, 0, 6),
