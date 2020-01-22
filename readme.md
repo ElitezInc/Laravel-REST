@@ -15,10 +15,13 @@ For implementing the task, technology stack is used that contains:
 - Laravel framework
 
 ### Setup guide
-Download all the files from repository and place them into web server root folder. Next, create database inside MySQL environment for website and configure MySQL connection settings inside project .env file. Install composer and run these commands in command line, opened inside project location:
+Download all the files from repository and place them into web server root folder. Next, create database inside MySQL environment for website and configure MySQL connection settings inside project .env file after creating it. Install composer and run these commands in command line, opened inside project location:
 ``` bash
 # Install Dependencies
 composer install
+
+# Copy .env file from example
+cp .env.example .env
 
 # Run Migrations
 php artisan migrate
