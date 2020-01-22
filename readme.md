@@ -1,4 +1,5 @@
 # Laravel REST service
+
 Implementation of assigned task for PHP Back End Engineer position, involving usage of most popular website development frameworks and techniques.
 
 ### Challenge description
@@ -43,3 +44,7 @@ GET /api/products/recommended/:city
 | <pre> Parameters: <br> :city - Vilnius </pre>|<pre>{<br>  "city": "Vilnius",<br>  "current_weather": "clear",<br>  "recommended_products": [<br>    {<br>      "sku": "57e4ee",<br>      "name": "CadetBlue Shorts",<br>      "price": 74.57<br>    },<br>    {<br>      "sku": "fcb424",<br>      "name": "LightSteelBlue Hat",<br>      "price": 91.12<br>    },<br>    {<br>      "sku": "4e10bb",<br>      "name": "Wheat Umbrella",<br>      "price": 12.33<br>    },<br>    {<br>      "sku": "de4439",<br>      "name": "FloralWhite Sweatshirt",<br>      "price": 28.76<br>    }<br>  ]<br>}</pre>|
 | <pre> Parameters: <br> :city - Kaunas</pre>|<pre>{<br>  "city": "kaunas",<br>  "current_weather": "clear",<br>  "recommended_products": [<br>    {<br>      "sku": "57e4ee",<br>      "name": "CadetBlue Shorts",<br>      "price": 74.57<br>    },<br>    {<br>      "sku": "fcb424",<br>      "name": "LightSteelBlue Hat",<br>      "price": 91.12<br>    },<br>    {<br>      "sku": "4e10bb",<br>      "name": "Wheat Umbrella",<br>      "price": 12.33<br>    },<br>    {<br>      "sku": "de4439",<br>      "name": "FloralWhite Sweatshirt",<br>      "price": 28.76<br>    }<br>  ]<br>}</pre>|
 | <pre> Parameters: <br> :city - miestas</pre>|<pre>{<br>  "error": {<br>    "code": 404,<br>    "message": "Not Found"<br>  }<br>}</pre>|
+
+### Contact details
+Gabrielius Važnevičius
+vaznevicius@gmail.com
